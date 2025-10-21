@@ -125,3 +125,20 @@ button#sendBtn:hover { transform: translateY(-4px); box-shadow: 0 14px 30px rgba
 
 /* small helper when toast visible */
 .toast.show { opacity:1; transform: translateX(-50%) translateY(0); pointer-events:auto; }
+/* ====== PARTICLE BACKGROUND ====== */
+#particle-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #0d1117; /* dark tech base */
+  overflow: hidden;
+}
+
+/* Optional: Glow and fade for a calm effect */
+canvas {
+  filter: brightness(1.2) blur(0.2px);
+}
+
